@@ -49,11 +49,18 @@ Klik menu **Materi** untuk membuka buku pedoman kader dan bahan penyuluhan TBC s
 Gunakan panah atau usap layar untuk membalik halaman buku panduan.
 :::
 
-### C. Portal Berita Edukasi TBC
-Klik menu **Blog / Berita** untuk membaca informasi terbaru seputar kesehatan TBC dari Dinas Kesehatan dan Puskesmas.
+### C. Portal Berita Edukasi & Publikasi Cerita Kader
+- Klik menu **Blog / Berita** untuk membaca informasi terbaru seputar kesehatan TBC dari Dinas Kesehatan dan Puskesmas.
+- Bapak/Ibu Kader juga dapat mengirimkan cerita lapangan atau testimoni edukasi melalui tombol **[+ Tulis Berita]**.
 
 [![Portal Berita Edukasi TBC](/img/kader/blog.png)](/img/kader/blog.png)
 
 :::tip
 Klik gambar di atas untuk memperbesar.
+:::
+
+[![Formulir Menulis Berita / Cerita Lapangan Kader](/img/kader/blog_add.png)](/img/kader/blog_add.png)
+
+:::tip
+Klik gambar di atas untuk melihat formulir penulisan berita baru kader.
 :::

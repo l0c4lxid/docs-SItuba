@@ -56,3 +56,21 @@ Perangkat Kelurahan dapat mengakses buku saku kader dan materi penyuluhan TBC me
 :::tip
 Klik gambar di atas untuk memperbesar materi edukasi.
 :::
+
+---
+
+## 5. Mengelola & Menerbitkan Berita Kelurahan
+
+Perangkat Kelurahan dapat melihat daftar berita wilayah serta mempublikasikan pengumuman kegiatan TBC melalui menu **Berita**:
+
+[![Daftar Berita dan Artikel Kelurahan](/img/kelurahan/blog_menu.png)](/img/kelurahan/blog_menu.png)
+
+:::tip
+Klik gambar di atas untuk melihat daftar berita.
+:::
+
+[![Formulir Menulis Berita Baru Kelurahan](/img/kelurahan/blog_post_add.png)](/img/kelurahan/blog_post_add.png)
+
+:::tip
+Klik gambar di atas untuk melihat detail formulir penulisan berita kelurahan.
+:::
