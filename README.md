@@ -1,43 +1,86 @@
-# Website
+# Dokumentasi Sistem Informasi SItuba 📖
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Portal dokumentasi resmi untuk **Sistem Informasi Penanggulangan TBC Kota Surakarta (SItuba)**. Situs ini dibangun menggunakan [Docusaurus 3](https://docusaurus.io/), generator situs statis modern berbasis React.
 
-## Installation
+---
 
-```bash
-npm install
-```
+## 🚀 Fitur Utama
 
-**Note**: feel free to use the package manager of your choice.
+- **Dokumentasi Terstruktur**: Panduan penggunaan aplikasi SItuba dan spesifikasi sistem.
+- **Dukungan Diagram Mermaid**: Visualisasi alur kerja dan arsitektur sistem secara interaktif.
+- **Auto-Deploy GitHub Actions**: Build & deployment otomatis ke GitHub Pages saat push ke branch `main`.
 
-## Local Development
+---
 
-```bash
-npm run start
-```
+## 🛠️ Persyaratan Sistem
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- **Node.js**: `v20.0.0` atau yang lebih baru
+- **Package Manager**: `npm` (atau `pnpm` / `yarn`)
 
-## Build
+---
+
+## 💻 Pengembangan Lokal (Local Development)
+
+1. **Install Dependensi**:
+   ```bash
+   npm install
+   ```
+
+2. **Jalankan Server Pengembang**:
+   ```bash
+   npm run start
+   ```
+   Perintah ini akan menjalankan server lokal di `http://localhost:3000` dengan fitur *live reload*.
+
+---
+
+## 🏗️ Build Produk
+
+Untuk menghasilkan berkas statis siap rilis ke folder `build/`:
 
 ```bash
 npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+Anda juga dapat menguji hasil build secara lokal dengan:
 
 ```bash
-USE_SSH=true npm run deploy
+npm run serve
 ```
 
-Not using SSH:
+---
 
-```bash
-GIT_USER=<Your GitHub username> npm run deploy
+## 🚀 Pengaturan Auto-Deploy (GitHub Pages)
+
+Proyek ini telah dikonfigurasi dengan **GitHub Actions** untuk deployment otomatis via `.github/workflows/deploy.yml`.
+
+### 1. Konfigurasi Repository GitHub
+Agar auto-deploy berjalan dengan lancar, pastikan sumber deployment pada repository GitHub sudah disetel ke **GitHub Actions**:
+
+1. Buka repository GitHub: [`docs-SItuba`](https://github.com/l0c4lxid/docs-SItuba).
+2. Masuk ke **Settings** > **Pages**.
+3. Pada bagian **Build and deployment** -> **Source**, pilih **GitHub Actions**.
+
+### 2. Alur Otomatisasi
+- Setiap kali perubahan dikirim (*push*) ke branch `main`, GitHub Actions akan otomatis menjalankan proses build `npm run build` dan mempublikasikannya ke GitHub Pages.
+- Workflow juga dapat dipicu secara manual dari tab **Actions** di GitHub (*workflow_dispatch*).
+
+---
+
+## 📁 Struktur Direktori
+
+```text
+docs-site/
+├── .github/workflows/   # Workflow GitHub Actions (Auto-deploy)
+├── docs/                # Berkas dokumentasi Markdown / MDX
+├── src/                 # Komponen React & CSS kustom
+├── static/              # Asset statis (gambar, logo, favicon)
+├── docusaurus.config.js # Konfigurasi utama Docusaurus
+└── sidebars.js          # Navigasi & struktur sidebar dokumentasi
 ```
 
-If you are using GitHub Pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+---
+
+## 📄 Lisensi & Hak Cipta
+
+Copyright © Portal Dokumentasi Sistem Informasi SItuba ([situba.my.id](https://situba.my.id)).
