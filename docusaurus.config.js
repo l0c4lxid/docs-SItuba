@@ -50,6 +50,9 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/', // Serve docs at site root
+          editUrl: 'https://github.com/l0c4lxid/docs-SItuba/edit/main/',
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
@@ -88,6 +91,11 @@ const config = {
           {
             href: 'https://situba.my.id',
             label: 'Buka Aplikasi SItuba',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/l0c4lxid/docs-SItuba',
+            label: 'GitHub',
             position: 'right',
           },
         ],
