@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Panduan Penggunaan Sistem SItuba
-slug: /intro
+slug: /
 ---
 
 # Selamat Datang di Panduan Penggunaan Aplikasi SItuba
