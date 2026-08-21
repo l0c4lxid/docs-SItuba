@@ -74,11 +74,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        logo: {
-          alt: 'SItuba Logo',
-          src: 'img/situba-logo.png',
-          height: 40,
-        },
         copyright: `Copyright © ${new Date().getFullYear()} Portal Dokumentasi Sistem Informasi SItuba (situba.my.id).`,
       },
       prism: {
