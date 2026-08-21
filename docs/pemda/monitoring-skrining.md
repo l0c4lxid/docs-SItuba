@@ -26,7 +26,7 @@ Klik gambar di atas untuk memperbesar.
 
 - **Kotak Cari (Search):** Ketik nama warga atau NIK warga pada kotak **Cari** di atas tabel untuk menemukan data pasien secara cepat.
 - **Filter Puskesmas / Kelurahan:** Klik kotak pilihan Puskesmas atau Kelurahan untuk melihat data daerah tertentu saja.
-- **Filter Suspek TBC:** Pilih opsi **Suspek TBC** untuk menampilkan khusus warga yang mengalami $\ge 1$ dari 5 gejala medis yang perlu tes dahak.
+- **Filter Suspek TBC:** Pilih opsi **Suspek TBC** untuk menampilkan khusus warga yang mengalami 1 atau lebih (≥ 1) dari 5 gejala medis yang perlu tes dahak.
 - **Tombol Download Excel:** Klik tombol hijau **[Export Excel]** di pojok kanan atas jika Bapak/Ibu ingin mengunduh laporan ke dalam berkas Microsoft Excel.
 
 ---

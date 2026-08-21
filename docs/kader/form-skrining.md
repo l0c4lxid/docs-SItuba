@@ -45,7 +45,7 @@ Tanyakan 5 pertanyaan gejala medis berikut kepada warga, lalu klik/centang **[Ya
 
 ### Tahap C: Menyimpan Data Skrining
 - Setelah seluruh pertanyaan terisi, gulir layar ke bagian paling bawah lalu klik tombol hijau **[Simpan Data Skrining]**.
-- **Kalkulasi Otomatis (Status Suspek):** Jika warga mengalami $\ge 1$ gejala dari 5 indikator medis di atas, aplikasi akan secara otomatis menandai warga sebagai **Suspek TBC** dan meneruskan informasinya ke Puskesmas Pembina.
+- **Kalkulasi Otomatis (Status Suspek):** Jika warga mengalami 1 atau lebih (≥ 1) gejala dari 5 indikator medis di atas, aplikasi akan secara otomatis menandai warga sebagai **Suspek TBC** dan meneruskan informasinya ke Puskesmas Pembina.
 
 ---
 
