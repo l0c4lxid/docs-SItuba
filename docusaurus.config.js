@@ -7,8 +7,8 @@ const config = {
   tagline: 'Spesifikasi Sistem Informasi Penanggulangan TBC Kota Surakarta',
   favicon: 'img/favicon.ico',
 
-  url: 'https://l0c4lxid.github.io',
-  baseUrl: '/docs-SItuba/',
+  url: 'https://doc.situba.web.id',
+  baseUrl: '/',
 
   onBrokenLinks: 'ignore',
 
