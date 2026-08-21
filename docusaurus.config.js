@@ -74,7 +74,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Universitas Bina Sarana Informatika Kampus Solo — Portal Dokumentasi Sistem Informasi SItuba (situba.my.id).`,
+        copyright: `Copyright © ${new Date().getFullYear()} Universitas Bina Sarana Informatika Kampus Solo — Portal Dokumentasi Sistem Informasi SItuba.`,
       },
       prism: {
         theme: prismThemes.github,
