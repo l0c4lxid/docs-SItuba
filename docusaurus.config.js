@@ -1,5 +1,5 @@
 // @ts-check
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,12 +43,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       docs: {
-      sidebar: {
-        hideable: true,
-        autoCollapseCategories: true,
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
-    },
-    colorMode: {
+      colorMode: {
         defaultMode: 'dark',
         respectPrefersColorScheme: true,
       },
@@ -74,7 +74,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Portal Dokumentasi Sistem Informasi SItuba (situba.my.id).`,
+        copyright: `Copyright © ${new Date().getFullYear()} Universitas Bina Sarana Informatika Kampus Solo — Portal Dokumentasi Sistem Informasi SItuba (situba.my.id).`,
       },
       prism: {
         theme: prismThemes.github,
