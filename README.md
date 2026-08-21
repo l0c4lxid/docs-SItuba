@@ -83,4 +83,5 @@ docs-site/
 
 ## 📄 Lisensi & Hak Cipta
 
-Copyright © Portal Dokumentasi Sistem Informasi SItuba ([situba.my.id](https://situba.my.id)).
+Copyright © Portal Dokumentasi Sistem Informasi SItuba ([situba.my.id](https://situba.my.id)). UBSI Solo.
+
