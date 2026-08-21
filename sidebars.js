@@ -7,7 +7,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Perkenalan & Panduan Masyarakat Umum (User Public)',
-      collapsed: false,
+      collapsible: true,
+      collapsed: true,
       items: [
         'public/overview',
         'public/portal-berita-edukasi',
@@ -17,7 +18,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Panduan Eksekutif Dinas Kesehatan Kota (Pemda)',
-      collapsed: false,
+      collapsible: true,
+      collapsed: true,
       items: [
         'pemda/overview',
         'pemda/verifikasi-user',
@@ -29,7 +31,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Panduan Puskesmas Pembina (Faskes Supervisor)',
-      collapsed: false,
+      collapsible: true,
+      collapsed: true,
       items: [
         'puskesmas/overview',
         'puskesmas/evaluasi-kader',
@@ -39,7 +42,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Panduan Kelurahan Wilayah (Administrative Boundary)',
-      collapsed: false,
+      collapsible: true,
+      collapsed: true,
       items: [
         'kelurahan/overview',
         'kelurahan/monitoring-kasus-kader',
@@ -48,7 +52,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Panduan Kader TBC Lapangan (Field Officer)',
-      collapsed: false,
+      collapsible: true,
+      collapsed: true,
       items: [
         'kader/overview',
         'kader/form-skrining',
