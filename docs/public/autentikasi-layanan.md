@@ -17,8 +17,9 @@ Petunjuk ini membantu petugas atau calon kader yang ingin masuk (*login*) atau m
 
 [![Halaman Login Aplikasi SItuba](/img/public/login.png)](/img/public/login.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat ukuran besar.
+:::
 
 ---
 
@@ -31,10 +32,12 @@ Bagi calon Kader TBC atau Petugas baru yang belum memiliki akun:
 
 [![Formulir Pendaftaran Akun Baru](/img/public/register.png)](/img/public/register.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::
 
-[![Formulir Pendaftaran Tahap 2](/img/public/register%202.png)](/img/public/register%202.png)
+[![Formulir Pendaftaran Tahap 2](/img/public/register_2.png)](/img/public/register_2.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

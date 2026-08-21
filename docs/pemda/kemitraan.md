@@ -16,8 +16,9 @@ Dalam aplikasi SItuba, setiap Kelurahan harus dihubungkan dengan satu **Puskesma
 
 [![Tabel Kemitraan Puskesmas dan Kelurahan](/img/pemda/mitra.png)](/img/pemda/mitra.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat ukuran besar.
+:::
 
 ---
 
@@ -29,5 +30,6 @@ Dalam aplikasi SItuba, setiap Kelurahan harus dihubungkan dengan satu **Puskesma
 
 [![Formulir Penugasan Puskesmas Pembina](/img/pemda/detail_mitra.png)](/img/pemda/detail_mitra.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

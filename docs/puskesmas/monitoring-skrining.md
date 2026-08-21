@@ -16,8 +16,9 @@ Halaman **Data Skrining** digunakan oleh Puskesmas untuk melihat daftar warga te
 
 [![Tabel Data Skrining Wilayah Puskesmas](/img/puskesmas/data_skrining.png)](/img/puskesmas/data_skrining.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::
 
 ---
 

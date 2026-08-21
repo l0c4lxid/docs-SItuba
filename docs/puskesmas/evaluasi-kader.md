@@ -16,8 +16,9 @@ Petugas Puskesmas dapat memantau keaktifan dan jumlah warga yang berhasil diperi
 
 [![Tabel Daftar Kader Wilayah Puskesmas](/img/puskesmas/data_kader.png)](/img/puskesmas/data_kader.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat tampilan besar.
+:::tip
+Klik gambar di atas untuk melihat tampilan besar.
+:::
 
 ---
 
@@ -28,5 +29,6 @@ Petugas Puskesmas dapat memantau keaktifan dan jumlah warga yang berhasil diperi
 
 [![Layanan Rincian Detail Kader Lapangan](/img/puskesmas/kader_detail.png)](/img/puskesmas/kader_detail.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

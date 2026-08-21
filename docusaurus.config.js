@@ -9,8 +9,7 @@ const config = {
 
   url: 'https://doc.situba.web.id',
   baseUrl: '/',
-
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
 
   i18n: {
     defaultLocale: 'id',
@@ -19,6 +18,9 @@ const config = {
 
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
 

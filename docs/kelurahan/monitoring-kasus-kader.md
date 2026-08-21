@@ -16,8 +16,9 @@ Perangkat Kelurahan dapat melihat daftar Kader TBC yang aktif di lingkungan RW s
 
 [![Tabel Monitoring Kader Wilayah Kelurahan](/img/kelurahan/data_kader.png)](/img/kelurahan/data_kader.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran penuh.
+:::tip
+Klik gambar di atas untuk melihat ukuran penuh.
+:::
 
 ---
 
@@ -28,8 +29,9 @@ Perangkat Kelurahan dapat melihat daftar Kader TBC yang aktif di lingkungan RW s
 
 [![Detail Rincian Kader Wilayah Kelurahan](/img/kelurahan/detail_kader.png)](/img/kelurahan/detail_kader.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::
 
 ---
 
@@ -39,5 +41,18 @@ Perangkat Kelurahan dapat melihat daftar Kader TBC yang aktif di lingkungan RW s
 
 [![Daftar Puskesmas Pembina Kelurahan](/img/kelurahan/data_mitra.png)](/img/kelurahan/data_mitra.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::
+
+---
+
+## 4. Buku Panduan Kader & Materi Edukasi Wilayah
+
+Perangkat Kelurahan dapat mengakses buku saku kader dan materi penyuluhan TBC melalui menu **Materi** untuk keperluan sosialisasi di tingkat RW/RT atau Posyandu.
+
+[![Buku Panduan Kader & Materi Edukasi](/img/kelurahan/materi.png)](/img/kelurahan/materi.png)
+
+:::tip
+Klik gambar di atas untuk memperbesar materi edukasi.
+:::

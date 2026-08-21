@@ -16,8 +16,9 @@ Masyarakat dapat membaca artikel seputar pencegahan TBC serta mengunduh materi p
 
 [![Daftar Berita Edukasi TBC Publik](/img/public/blog.png)](/img/public/blog.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat ukuran besar.
+:::
 
 ---
 
@@ -25,7 +26,8 @@ Masyarakat dapat membaca artikel seputar pencegahan TBC serta mengunduh materi p
 
 - Klik pada judul atau gambar berita untuk membuka isi bacaan lengkap.
 
-[![Rincian Halaman Bacaan Berita TBC](/img/public/blog%20detail.png)](/img/public/blog%20detail.png)
+[![Rincian Halaman Bacaan Berita TBC](/img/public/blog_detail.png)](/img/public/blog_detail.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

@@ -16,8 +16,9 @@ Setiap ada Kader TBC atau Petugas Puskesmas baru yang mendaftar, akun mereka aka
 
 [![Tabel Daftar Pengguna dan Kader](/img/pemda/data_kader.png)](/img/pemda/data_kader.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat tampilan ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat tampilan ukuran besar.
+:::
 
 ### Status Otorisasi Akun:
 - <span className="badge-status badge-status-active">Aktif</span> **Aktif:** Petugas sudah disetujui dan bisa langsung bekerja.
@@ -36,5 +37,6 @@ Setiap ada Kader TBC atau Petugas Puskesmas baru yang mendaftar, akun mereka aka
 
 [![Layanan Detail Identitas dan Verifikasi Petugas](/img/pemda/detail_kader.png)](/img/pemda/detail_kader.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran penuh.
+:::tip
+Klik gambar di atas untuk melihat ukuran penuh.
+:::

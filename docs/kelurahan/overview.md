@@ -15,8 +15,9 @@ Setelah masuk (*login*) dengan nomor HP `0401` dan kata sandi `password123`, lay
 
 [![Dashboard Pengawasan Kelurahan Wilayah](/img/kelurahan/dashboard.png)](/img/kelurahan/dashboard.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat ukuran besar.
+:::
 
 ---
 
@@ -34,5 +35,6 @@ Klik menu **Profil** di pojok kanan atas layar untuk memperbarui alamat kantor k
 
 [![Halaman Profil Kelurahan](/img/kelurahan/profile.png)](/img/kelurahan/profile.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

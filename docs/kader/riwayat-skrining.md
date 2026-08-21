@@ -16,8 +16,9 @@ Halaman **Riwayat Skrining** menyimpan seluruh data warga yang pernah diinput ol
 
 [![Tabel Riwayat Skrining Mandiri Kader](/img/kader/data_skrining.png)](/img/kader/data_skrining.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat ukuran besar.
+:::
 
 ---
 
@@ -30,8 +31,29 @@ Halaman **Riwayat Skrining** menyimpan seluruh data warga yang pernah diinput ol
 
 ## 3. Fitur Tambahan Lainnya
 
-- **Menu Mitra Puskesmas:** Klik menu **Mitra** untuk melihat kontak petugas Puskesmas Pembina.
-  [![Daftar Mitra Puskesmas Pembina](/img/kader/mitra.png)](/img/kader/mitra.png)
+### A. Mitra Puskesmas Pembina
+Klik menu **Mitra** untuk melihat kontak petugas dan dokter Puskesmas Pembina yang siap menerima rujukan.
 
-- **Menu Berita & Edukasi:** Klik menu **Blog / Berita** atau **Materi Edukasi** untuk membaca artikel kesehatan TBC dan mendownload lembar penyuluhan warga.
-  [![Portal Berita Edukasi TBC](/img/kader/blog.png)](/img/kader/blog.png)
+[![Daftar Mitra Puskesmas Pembina](/img/kader/mitra.png)](/img/kader/mitra.png)
+
+:::tip
+Klik gambar untuk melihat kontak Puskesmas.
+:::
+
+### B. Buku Panduan Kader & Materi Edukasi
+Klik menu **Materi** untuk membuka buku pedoman kader dan bahan penyuluhan TBC saat terjun ke lapangan.
+
+[![Buku Panduan Kader & Materi Edukasi](/img/kader/materi.png)](/img/kader/materi.png)
+
+:::tip
+Gunakan panah atau usap layar untuk membalik halaman buku panduan.
+:::
+
+### C. Portal Berita Edukasi TBC
+Klik menu **Blog / Berita** untuk membaca informasi terbaru seputar kesehatan TBC dari Dinas Kesehatan dan Puskesmas.
+
+[![Portal Berita Edukasi TBC](/img/kader/blog.png)](/img/kader/blog.png)
+
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

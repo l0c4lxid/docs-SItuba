@@ -15,8 +15,9 @@ Setelah Bapak/Ibu berhasil masuk (*login*) menggunakan nomor HP `0101` dan kata 
 
 [![Tampilan Dashboard Dinas Kesehatan](/img/pemda/dashboard.png)](/img/pemda/dashboard.png)
 
-> [!TIP]
-> Klik atau tekan gambar di atas untuk melihat tampilan ukuran besar.
+:::tip
+Klik atau tekan gambar di atas untuk melihat tampilan ukuran besar.
+:::
 
 ---
 
@@ -38,5 +39,6 @@ Jika Bapak/Ibu ingin melihat profil atau mengganti foto/informasi akun:
 
 [![Halaman Profil Pengguna](/img/pemda/profile.png)](/img/pemda/profile.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat tampilan ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat tampilan ukuran besar.
+:::

@@ -16,8 +16,9 @@ Halaman **Data Skrining** digunakan untuk melihat seluruh hasil pemeriksaan warg
 
 [![Tabel Data Skrining Pasien Kota](/img/pemda/data_skrining.png)](/img/pemda/data_skrining.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::
 
 ---
 
@@ -37,5 +38,6 @@ Halaman **Data Skrining** digunakan untuk melihat seluruh hasil pemeriksaan warg
 
 [![Halaman Rincian 5 Gejala Pasien](/img/pemda/detail_skrining.png)](/img/pemda/detail_skrining.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

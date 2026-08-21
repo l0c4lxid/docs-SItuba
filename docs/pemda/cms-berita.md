@@ -16,8 +16,9 @@ Dinas Kesehatan Kota dapat menulis berita kesehatan atau pengumuman sosialisasi 
 
 [![Daftar Berita dan Artikel TBC](/img/pemda/blog_menu.png)](/img/pemda/blog_menu.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::
 
 ---
 
@@ -30,5 +31,18 @@ Dinas Kesehatan Kota dapat menulis berita kesehatan atau pengumuman sosialisasi 
 
 [![Formulir Menulis Berita TBC Baru](/img/pemda/add_blog_post.png)](/img/pemda/add_blog_post.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran penuh.
+:::tip
+Klik gambar di atas untuk melihat ukuran penuh.
+:::
+
+---
+
+## 3. Buku Panduan Kader & Materi Edukasi
+
+Dinas Kesehatan juga dapat meninjau buku saku dan materi edukasi TBC yang dibaca oleh seluruh kader binaan dan puskesmas di Kota Surakarta melalui menu **Materi**.
+
+[![Buku Panduan Kader & Materi Edukasi](/img/pemda/materi.png)](/img/pemda/materi.png)
+
+:::tip
+Klik gambar di atas untuk memperbesar tampilan materi penyuluhan.
+:::

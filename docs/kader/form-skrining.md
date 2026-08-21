@@ -16,8 +16,9 @@ Petunjuk ini membantu Bapak/Ibu Kader saat melakukan wawancara dan pengisian dat
 
 [![Formulir Input Skrining 5 Gejala TBC](/img/kader/skrining_add.png)](/img/kader/skrining_add.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat tampilan besar.
+:::tip
+Klik gambar di atas untuk melihat tampilan besar.
+:::
 
 ---
 
@@ -54,5 +55,6 @@ Di bawah ini adalah tampilan utuh formulir pemeriksaan yang dapat Bapak/Ibu Kade
 
 [![Tampilan Utuh Formulir Skrining 5 Gejala TBC](/img/kader/full_skrining_detail.png)](/img/kader/full_skrining_detail.png)  
 
-> [!NOTE]
-> Klik gambar di atas untuk melihat tampilan penuh formulir skrining.
+:::note
+Klik gambar di atas untuk melihat tampilan penuh formulir skrining.
+:::

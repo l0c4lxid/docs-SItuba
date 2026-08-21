@@ -15,8 +15,9 @@ Setelah masuk (*login*) dengan nomor HP (contoh: `0200101`) dan kata sandi `pass
 
 [![Dashboard Personal Kader TBC Lapangan](/img/kader/dashboard.png)](/img/kader/dashboard.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat ukuran besar.
+:::
 
 ---
 
@@ -33,5 +34,6 @@ Klik menu **Profil** di bagian atas layar untuk melihat data pribadi Kader, memp
 
 [![Halaman Profil Akun Kader](/img/kader/profile.png)](/img/kader/profile.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::

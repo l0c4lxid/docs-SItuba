@@ -17,8 +17,9 @@ Melalui aplikasi ini, masyarakat dapat dengan mudah memperoleh informasi kesehat
 
 [![Tampilan Halaman Depan Website Publik SItuba](/img/public/landing.png)](/img/public/landing.png)
 
-> [!TIP]
-> Klik gambar di atas untuk melihat tampilan ukuran besar.
+:::tip
+Klik gambar di atas untuk melihat tampilan ukuran besar.
+:::
 
 ---
 
@@ -37,5 +38,6 @@ Bapak/Ibu dapat mengklik gambar di bawah ini untuk melihat tampilan lengkap hala
 
 [![Tampilan Utuh Halaman Depan Publik](/img/public/landing_full.png)](/img/public/landing_full.png)  
 
-> [!NOTE]
-> Klik gambar di atas untuk melihat tampilan penuh halaman utama website SItuba.
+:::note
+Klik gambar di atas untuk melihat tampilan penuh halaman utama website SItuba.
+:::

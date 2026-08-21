@@ -37,6 +37,8 @@ const sidebars = {
         'puskesmas/overview',
         'puskesmas/evaluasi-kader',
         'puskesmas/monitoring-skrining',
+        'puskesmas/kelurahan-binaan',
+        'puskesmas/cms-berita-materi',
       ],
     },
     {

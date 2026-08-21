@@ -15,8 +15,9 @@ Setelah masuk (*login*) dengan nomor HP `0301` dan kata sandi `password123`, lay
 
 [![Dashboard Puskesmas Pembina](/img/puskesmas/dashboard.png)](/img/puskesmas/dashboard.png)
 
-> [!TIP]
-> Klik gambar untuk melihat tampilan ukuran besar.
+:::tip
+Klik gambar untuk melihat tampilan ukuran besar.
+:::
 
 ---
 
@@ -34,5 +35,6 @@ Klik menu **Profil** di bagian kanan atas layar untuk memperbarui nama petugas, 
 
 [![Halaman Profil Puskesmas](/img/puskesmas/profile.png)](/img/puskesmas/profile.png)
 
-> [!TIP]
-> Klik gambar di atas untuk memperbesar.
+:::tip
+Klik gambar di atas untuk memperbesar.
+:::
