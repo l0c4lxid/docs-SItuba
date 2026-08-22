@@ -1,48 +1,57 @@
 ---
-sidebar_position: 6
-title: Cara Menulis & Mengedit Berita TBC
+sidebar_position: 5
+title: Pengelolaan Berita & Materi Edukasi Publik
 ---
 
-# Cara Menulis & Mengedit Berita TBC
+# Pengelolaan Berita & Materi Edukasi Publik
 
-Dinas Kesehatan Kota dapat menulis berita kesehatan atau pengumuman sosialisasi TBC yang akan muncul di website publik agar dapat dibaca oleh masyarakat umum.
+Dinas Kesehatan Kota Surakarta (Pemda) memiliki wewenang mengelola konten edukasi kesehatan masyarakat, artikel pencegahan TBC, serta materi pedoman resmi yang dibaca oleh kader dan masyarakat umum.
 
 ---
 
-## 1. Membuka Kelola Berita
+## 1. Membuka Menu Kelola Berita
 
-- **Langkah 1:** Klik menu **Kelola Berita / Blog** di sebelah kiri.
-- **Langkah 2:** Bapak/Ibu akan melihat daftar berita yang sudah ditulis.
+- **Langkah 1:** Klik menu **Semua Berita / Berita** pada navigasi sebelah kiri.
+- **Langkah 2:** Sistem menampilkan statistik konten:
+  - **Total Berita:** Jumlah keseluruhan artikel dalam sistem.
+  - **Menunggu Publikasi:** Artikel atau draft yang disiapkan oleh Puskesmas/Kelurahan/Dinas yang menunggu penayangan resmi.
+  - **Sudah Tayang:** Artikel yang saat ini aktif ditampilkan di halaman portal publik SItuba.
 
-[![Daftar Berita dan Artikel TBC](/img/pemda/blog_menu.png)](/img/pemda/blog_menu.png)
+[![Daftar Berita dan Artikel Edukasi TBC](/img/pemda/blog_menu.png)](/img/pemda/blog_menu.png)
 
 :::tip
-Klik gambar di atas untuk memperbesar.
+Klik gambar di atas untuk memperbesar tampilan manajemen berita.
 :::
 
 ---
 
-## 2. Cara Menambah Berita Baru
+## 2. Cara Menulis & Mempublikasikan Berita Baru
 
-- **Langkah 1:** Klik tombol **[Tambah Berita Baru]**.
-- **Langkah 2:** Isi **Judul Berita**, pilih **Kategori**, dan tulis isi berita pada kotak yang tersedia.
-- **Langkah 3:** Unggah foto pendukung (*cover image*) berita jika ada.
-- **Langkah 4:** Klik tombol **[Simpan / Terbitkan]** agar berita langsung tayang di website publik.
+- **Langkah 1:** Klik tombol **[+ Tulis Berita]** di pojok kanan atas.
+- **Langkah 2:** Lengkapi kolom-kolom formulir publikasi:
+  - **Judul Berita:** Tulis judul yang informatif dan menarik untuk masyarakat (misal: *Sosialisasi TBC Bebas Stigma di Surakarta*).
+  - **Kategori Berita:** Pilih kategori yang sesuai (Edukasi, Berita Kota, Tips Pencegahan, atau Pengumuman Layanan).
+  - **Foto Sampul (*Cover Image*):** Unggah dokumentasi kegiatan atau infografis resmi.
+  - **Isi Artikel:** Tulis uraian berita dengan editor teks lengkap.
+- **Langkah 3:** Klik tombol **[Simpan & Publikasikan]** agar berita langsung terbit di website utama.
 
 [![Formulir Menulis Berita TBC Baru](/img/pemda/add_blog_post.png)](/img/pemda/add_blog_post.png)
 
 :::tip
-Klik gambar di atas untuk melihat ukuran penuh.
+Klik gambar di atas untuk melihat formulir penulisan berita secara detail.
 :::
 
 ---
 
-## 3. Buku Panduan Kader & Materi Edukasi
+## 3. Peninjauan Modul Materi & Buku Panduan Kader
 
-Dinas Kesehatan juga dapat meninjau buku saku dan materi edukasi TBC yang dibaca oleh seluruh kader binaan dan puskesmas di Kota Surakarta melalui menu **Materi**.
+Melalui menu **Materi**, Dinas Kesehatan dapat meninjau buku saku dan panduan teknis yang digunakan seluruh kader TBC di Kota Surakarta.
 
-[![Buku Panduan Kader & Materi Edukasi](/img/pemda/materi.png)](/img/pemda/materi.png)
+- **Fitur Navigasi Buku Digital:** Gunakan tombol panah kiri/kanan atau geser (*swipe*) untuk membalik halaman.
+- **Fitur Zoom & Layar Penuh:** Klik ikon kaca pembesar untuk memperjelas teks atau tombol **Layar Penuh** untuk presentasi penyuluhan.
+
+[![Buku Panduan Kader & Modul Edukasi Digital](/img/pemda/materi.png)](/img/pemda/materi.png)
 
 :::tip
-Klik gambar di atas untuk memperbesar tampilan materi penyuluhan.
+Klik gambar di atas untuk memperbesar tampilan modul materi digital.
 :::

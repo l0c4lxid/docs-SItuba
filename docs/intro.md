@@ -14,84 +14,97 @@ Panduan ini disusun dengan kalimat yang **sederhana, jelas, dan mudah dipahami**
 
 ## Siapa Saja Pengguna Aplikasi SItuba?
 
-Aplikasi SItuba digunakan oleh 5 kelompok pengguna. Silakan pilih panduan sesuai dengan tugas Bapak/Ibu:
+Aplikasi SItuba dirancang dengan arsitektur sistem informasi berjenjang (*Multi-tier Role-Based Architecture*) yang menghubungkan seluruh pemangku kepentingan penanggulangan Tuberkulosis (TBC) di Kota Surakarta:
 
-1. **Dinas Kesehatan Kota (Pemda):** Memeriksa dan menyetujui pendaftaran akun baru, memantau data TBC se-Kota Surakarta, serta mengelola berita edukasi.
-2. **Puskesmas Pembina:** Mengawasi kegiatan kader di wilayah binaan, memantau warga terindikasi suspek TBC, dan menyiapkan rujukan tes dahak.
-3. **Kelurahan Wilayah:** Memantau jumlah kader dan sebaran warga terindikasi TBC di lingkungan RW dan RT.
-4. **Kader TBC Lapangan:** Mengisi formulir skrining 5 indikator gejala TBC saat mengunjungi warga dari rumah ke rumah (*door-to-door*).
-5. **Masyarakat Umum (Publik):** Membaca berita kesehatan TBC, mendownload materi penyuluhan, dan mendaftar akun baru.
+1. **Dinas Kesehatan Kota (Pemda - Super Administrator / Monitoring Eksekutif):** Memantau seluruh data kesehatan se-kota secara terpusat (*real-time dashboard*), mengawasi kemitraan wilayah antara Puskesmas dan Kelurahan, memantau tata kelola pengguna, serta menerbitkan kebijakan, berita edukasi, dan materi panduan resmi.
+2. **Puskesmas Pembina (Fasilitas Pelayanan Kesehatan / Verifikator & Pembina Wilayah):** Berfungsi sebagai *hub* medis utama. Satu Puskesmas membina **banyak Kelurahan** dan bertugas **menyetujui (ACC / Verifikasi)** pendaftaran Kader di wilayahnya, memvalidasi hasil skrining, menyiapkan rujukan tes dahak (TCM), serta berkoordinasi dengan rekanan mitra.
+3. **Kelurahan Wilayah (Pemerintahan Administratif & Koordinasi Rekanan):** Memantau daftar kader yang bertugas di wilayah RT/RW setempat, melihat data warga terindikasi suspek TBC untuk intervensi sosial/gizi, serta memantau status kemitraan dengan Puskesmas pembina dan mitra kesehatan.
+4. **Kader TBC Lapangan (Garda Terdepan Pengumpul Data / Field Operative):** Mendaftar secara mandiri, menunggu persetujuan Puskesmas pembina, melakukan kunjungan rumah (*door-to-door*) untuk skrining 5 gejala utama dan 10 faktor risiko TBC, serta memantau pasien suspek.
+5. **Masyarakat Umum & Rekanan Publik:** Mengakses portal berita dan informasi kesehatan TBC, membaca buku panduan dan materi penyuluhan digital, serta mendaftar menjadi mitra kader/petugas.
 
 ---
 
-## Diagram Alur & Otorisasi Pengguna SItuba
+## Arsitektur & Alur Kerja Terintegrasi SItuba
 
-<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" style={{width: '100%', height: 'auto', background: '#0f172a', borderRadius: '12px', padding: '24px', border: '1px solid rgba(255,255,255,0.15)', margin: '20px 0', boxShadow: '0 10px 25px -5px rgba(0,0,0,0.5)'}}>
-  {/* Defs for arrows and gradients */}
+Diagram berikut menggambarkan interaksi sistem dari pendaftaran kader, verifikasi oleh Puskesmas, pembinaan multi-kelurahan, hingga pengawasan komprehensif oleh Dinas Kesehatan Kota (Pemda):
+
+<svg viewBox="0 0 860 520" xmlns="http://www.w3.org/2000/svg" style={{width: '100%', height: 'auto', background: '#0f172a', borderRadius: '12px', padding: '24px', border: '1px solid rgba(255,255,255,0.15)', margin: '20px 0', boxShadow: '0 10px 25px -5px rgba(0,0,0,0.5)'}}>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#4ade80" />
     </marker>
-    <linearGradient id="grad-dinkes" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stopColor="#1e293b" />
-      <stop offset="100%" stopColor="#0f172a" />
-    </linearGradient>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#38bdf8" />
+    </marker>
+    <marker id="arrow-yellow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#facc15" />
+    </marker>
   </defs>
 
-  {/* Node 1: Dinkes (Top Center) */}
-  <g transform="translate(250, 20)">
-    <rect width="300" height="64" rx="10" fill="#1e293b" stroke="#4ade80" strokeWidth="2" />
-    <text x="150" y="28" fill="#4ade80" fontSize="15" fontWeight="bold" textAnchor="middle">Dinas Kesehatan Kota Surakarta</text>
-    <text x="150" y="48" fill="#94a3b8" fontSize="12" textAnchor="middle">Executive Super Administrator</text>
+  {/* Level 1: Dinkes / Pemda (Top) */}
+  <g transform="translate(260, 20)">
+    <rect width="340" height="70" rx="10" fill="#1e293b" stroke="#4ade80" strokeWidth="2.5" />
+    <text x="170" y="30" fill="#4ade80" fontSize="16" fontWeight="bold" textAnchor="middle">Dinas Kesehatan Kota (Pemda)</text>
+    <text x="170" y="52" fill="#94a3b8" fontSize="12" textAnchor="middle">Monitoring Terpusat Eksekutif Se-Kota &amp; Kebijakan</text>
   </g>
 
-  {/* Node 2: Puskesmas (Middle Right) */}
-  <g transform="translate(480, 160)">
-    <rect width="270" height="64" rx="10" fill="#1e293b" stroke="#38bdf8" strokeWidth="2" />
-    <text x="135" y="28" fill="#38bdf8" fontSize="15" fontWeight="bold" textAnchor="middle">Puskesmas Pembina</text>
-    <text x="135" y="48" fill="#94a3b8" fontSize="12" textAnchor="middle">Faskes Supervisor &amp; Rujukan TCM</text>
+  {/* Level 2: Puskesmas Pembina (Middle Right) */}
+  <g transform="translate(520, 160)">
+    <rect width="310" height="75" rx="10" fill="#1e293b" stroke="#38bdf8" strokeWidth="2" />
+    <text x="155" y="30" fill="#38bdf8" fontSize="15" fontWeight="bold" textAnchor="middle">Puskesmas Pembina</text>
+    <text x="155" y="48" fill="#94a3b8" fontSize="11" textAnchor="middle">ACC Akun Kader &amp; Validasi Skrining</text>
+    <text x="155" y="65" fill="#38bdf8" fontSize="11" fontWeight="600" textAnchor="middle">(1 Puskesmas membina Banyak Kelurahan)</text>
   </g>
 
-  {/* Node 3: Kelurahan (Middle Left) */}
-  <g transform="translate(50, 160)">
-    <rect width="270" height="64" rx="10" fill="#1e293b" stroke="#facc15" strokeWidth="2" />
-    <text x="135" y="28" fill="#facc15" fontSize="15" fontWeight="bold" textAnchor="middle">Kelurahan Wilayah</text>
-    <text x="135" y="48" fill="#94a3b8" fontSize="12" textAnchor="middle">Administrative Boundary Monitoring</text>
+  {/* Level 2: Kelurahan & Rekanan (Middle Left) */}
+  <g transform="translate(30, 160)">
+    <rect width="310" height="75" rx="10" fill="#1e293b" stroke="#facc15" strokeWidth="2" />
+    <text x="155" y="30" fill="#facc15" fontSize="15" fontWeight="bold" textAnchor="middle">Kelurahan &amp; Rekanan Mitra</text>
+    <text x="155" y="48" fill="#94a3b8" fontSize="11" textAnchor="middle">Monitoring Wilayah Administrasi RW/RT</text>
+    <text x="155" y="65" fill="#facc15" fontSize="11" fontWeight="600" textAnchor="middle">Koordinasi Bantuan Sosial &amp; Kader</text>
   </g>
 
-  {/* Node 4: Kader (Lower Center) */}
-  <g transform="translate(250, 300)">
-    <rect width="300" height="64" rx="10" fill="#1e293b" stroke="#4ade80" strokeWidth="2" />
-    <text x="150" y="28" fill="#4ade80" fontSize="15" fontWeight="bold" textAnchor="middle">Kader TBC Lapangan</text>
-    <text x="150" y="48" fill="#94a3b8" fontSize="12" textAnchor="middle">Field Data Collection (Door-to-Door)</text>
+  {/* Level 3: Kader TBC Lapangan (Lower Center) */}
+  <g transform="translate(260, 310)">
+    <rect width="340" height="70" rx="10" fill="#1e293b" stroke="#4ade80" strokeWidth="2" />
+    <text x="170" y="30" fill="#4ade80" fontSize="15" fontWeight="bold" textAnchor="middle">Kader TBC Lapangan (RW / RT)</text>
+    <text x="170" y="52" fill="#94a3b8" fontSize="12" textAnchor="middle">Pendaftaran Mandiri &amp; Skrining Door-to-Door</text>
   </g>
 
-  {/* Node 5: Warga (Bottom) */}
-  <g transform="translate(250, 400)">
-    <rect width="300" height="44" rx="8" fill="#334155" stroke="#94a3b8" strokeWidth="1" />
-    <text x="150" y="27" fill="#f8fafc" fontSize="13" fontWeight="600" textAnchor="middle">Masyarakat Umum &amp; Pasien Sasaran</text>
+  {/* Level 4: Pasien & Masyarakat (Bottom) */}
+  <g transform="translate(260, 440)">
+    <rect width="340" height="48" rx="8" fill="#334155" stroke="#94a3b8" strokeWidth="1" />
+    <text x="170" y="30" fill="#f8fafc" fontSize="13" fontWeight="600" textAnchor="middle">Warga Masyarakat &amp; Pasien Sasaran</text>
   </g>
 
-  {/* Connectors */}
+  {/* Flows */}
   {/* Warga -> Kader */}
-  <path d="M 400, 400 L 400, 364" stroke="#94a3b8" strokeWidth="2" markerEnd="url(#arrow)" />
-  <text x="410" y="387" fill="#94a3b8" fontSize="11">Gejala Medis</text>
+  <path d="M 430, 440 L 430, 380" stroke="#94a3b8" strokeWidth="2" markerEnd="url(#arrow)" />
+  <text x="440" y="415" fill="#94a3b8" fontSize="11">Skrining Gejala &amp; Faktor Risiko</text>
 
-  {/* Kader -> Puskesmas */}
-  <path d="M 470, 300 C 470, 260 615, 260 615, 224" stroke="#4ade80" strokeWidth="2" fill="none" markerEnd="url(#arrow)" />
-  <text x="560" y="270" fill="#4ade80" fontSize="11">Input Skrining 5 Gejala</text>
+  {/* Kader Register -> Puskesmas (ACC) */}
+  <path d="M 550, 310 C 620, 280 640, 260 640, 235" stroke="#38bdf8" strokeWidth="2" fill="none" markerEnd="url(#arrow-blue)" />
+  <text x="645" y="275" fill="#38bdf8" fontSize="11">1. Registrasi &amp; ACC Akun</text>
 
-  {/* Kelurahan <-> Puskesmas */}
-  <path d="M 320, 192 L 480, 192" stroke="#facc15" strokeWidth="2" strokeDasharray="5,5" markerEnd="url(#arrow)" />
-  <text x="400" y="184" fill="#facc15" fontSize="11" textAnchor="middle">Kemitraan Wilayah</text>
+  {/* Kader Data -> Puskesmas */}
+  <path d="M 480, 310 C 510, 270 540, 255 560, 235" stroke="#4ade80" strokeWidth="2" fill="none" markerEnd="url(#arrow)" />
+  <text x="440" y="280" fill="#4ade80" fontSize="11">2. Data Skrining Warga</text>
 
-  {/* Puskesmas -> Dinkes */}
-  <path d="M 615, 160 C 615, 100 450, 100 450, 84" stroke="#38bdf8" strokeWidth="2" fill="none" markerEnd="url(#arrow)" />
-  <text x="560" y="120" fill="#38bdf8" fontSize="11">Laporan Rekapitulasi</text>
+  {/* Puskesmas <-> Kelurahan (1 to Many) */}
+  <path d="M 340, 197 L 520, 197" stroke="#facc15" strokeWidth="2" strokeDasharray="5,5" markerEnd="url(#arrow-yellow)" />
+  <text x="430" y="185" fill="#facc15" fontSize="11" textAnchor="middle">Kemitraan Wilayah (1 Faskes : Multi Kelurahan)</text>
 
-  {/* Dinkes -> Kader */}
-  <path d="M 320, 84 C 200, 120 220, 260 320, 300" stroke="#4ade80" strokeWidth="2" fill="none" markerEnd="url(#arrow)" />
-  <text x="170" y="140" fill="#4ade80" fontSize="11">Otorisasi &amp; Manajemen Akun</text>
+  {/* Puskesmas -> Pemda */}
+  <path d="M 620, 160 C 620, 110 500, 100 480, 90" stroke="#38bdf8" strokeWidth="2" fill="none" markerEnd="url(#arrow-blue)" />
+  <text x="590" y="120" fill="#38bdf8" fontSize="11">Agregat Kasus &amp; Rujukan</text>
+
+  {/* Kelurahan -> Pemda */}
+  <path d="M 230, 160 C 230, 110 350, 100 370, 90" stroke="#facc15" strokeWidth="2" fill="none" markerEnd="url(#arrow-yellow)" />
+  <text x="170" y="120" fill="#facc15" fontSize="11">Laporan Kewilayahan</text>
+
+  {/* Pemda Direct Oversight (All Data) */}
+  <path d="M 430, 90 L 430, 310" stroke="#4ade80" strokeWidth="1.5" strokeDasharray="4,4" markerEnd="url(#arrow)" />
+  <text x="435" y="240" fill="#4ade80" fontSize="11">Supervisi &amp; Monitoring Penuh Pemda</text>
 </svg>
 
 ---

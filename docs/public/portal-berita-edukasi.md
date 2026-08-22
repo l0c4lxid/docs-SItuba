@@ -1,33 +1,43 @@
 ---
 sidebar_position: 2
-title: Cara Membaca Berita & Materi Edukasi
+title: Portal Berita & Pusat Materi Edukasi Publik
 ---
 
-# Cara Membaca Berita & Materi Edukasi TBC
+# Portal Berita & Pusat Materi Edukasi Publik
 
-Masyarakat dapat membaca artikel seputar pencegahan TBC serta mengunduh materi penyuluhan secara gratis.
+Masyarakat umum dan mitra kesehatan dapat mengakses berita resmi seputar penanggulangan TBC di Kota Surakarta, tips pencegahan, pola hidup bersih dan sehat (PHBS), serta materi penyuluhan gratis.
 
 ---
 
-## 1. Membuka Portal Berita Kesehatan (`/blog`)
+## 1. Membuka Portal Berita Kesehatan
 
-- **Langkah 1:** Klik menu **Berita / Blog** pada bagian atas website.
-- **Langkah 2:** Pilih judul berita yang ingin dibaca.
+- **Langkah 1:** Pada bilah navigasi atas portal publik SItuba, klik menu **Berita / Artikel**.
+- **Langkah 2:** Sistem menampilkan kurasi artikel kesehatan, pengumuman jadwal posyandu, dan edukasi gejala TBC yang telah dipublikasikan oleh Dinas Kesehatan dan Puskesmas.
 
 [![Daftar Berita Edukasi TBC Publik](/img/public/blog.png)](/img/public/blog.png)
 
 :::tip
-Klik gambar di atas untuk melihat ukuran besar.
+Klik gambar di atas untuk melihat tampilan portal berita publik.
 :::
 
 ---
 
-## 2. Membaca Rincian Isi Berita
+## 2. Membaca Rincian Artikel & Informasi Pencegahan
 
-- Klik pada judul atau gambar berita untuk membuka isi bacaan lengkap.
+- Klik pada judul atau foto sampul artikel yang diminati untuk membuka naskah bacaan lengkap.
+- Pembaca dapat menyimak informasi pencegahan penularan, etika batuk yang benar, dan kiat mendampingi anggota keluarga yang sedang menjalani pengobatan TBC.
 
 [![Rincian Halaman Bacaan Berita TBC](/img/public/blog_detail.png)](/img/public/blog_detail.png)
 
 :::tip
-Klik gambar di atas untuk memperbesar.
+Klik gambar di atas untuk memperbesar tampilan rincian artikel.
 :::
+
+---
+
+## 3. Pemanfaatan Materi Edukasi Bebas Akses
+
+Materi infografis dan buku pedoman dapat dimanfaatkan oleh:
+- **Pengurus RT/RW:** Materi sosialisasi saat pertemuan warga bulanan.
+- **Kader Posyandu / PKK:** Bahan ajar penyuluhan kesehatan ibu, anak, dan lansia.
+- **Masyarakat Umum:** Panduan mengenali gejala dini batuk berisiko pada diri sendiri dan keluarga.
